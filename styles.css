@@ -19,7 +19,6 @@ body{
     display:flex;
     justify-content:center;
     align-items: center;
-    padding:2.5rem;
 }
 .card{
     max-width:250px;
@@ -73,6 +72,7 @@ a{
     border-radius:25px;
     width:55%;
     margin-top:20px;
+    border: 2px solid transparent;
 }
 .card a:hover{
     color:var(--main-color-lightgray);
@@ -80,7 +80,7 @@ a{
     border: 2px solid var(--main-color-lightgray);
 }
 
-@media screen and (max-width:760px){
+@media screen and (max-width:768px){
     body{
         font-size:15px;
         padding:10%;
